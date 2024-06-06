@@ -75,7 +75,7 @@ def main():
         predicted_class_label = class_labels[predicted_class_index]
 
         # Display the prediction
-        st.write(f"Predicted Class Label: {predicted_class_label}")
+        st.title(f"Predicted Class Label: {predicted_class_label}")
 
 if __name__ == "__main__":
     main()
